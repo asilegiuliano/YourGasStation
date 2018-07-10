@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scatta_foto"/>
+
+    <EditText
+        android:labelFor="@id/editName"
+        android:id="@+id/editName"
+        android:text="@string/nameText"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:labelFor="@+id/editBio"
+        android:id="@+id/editBio"
+        android:text="@string/bioText"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:labelFor="@+id/editTel"
+        android:id="@+id/editTel"
+        android:text="@string/telText"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:labelFor="@+id/editEmail"
+        android:id="@+id/editEmail"
+        android:text="@string/emailText"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/saveData"
+        android:background="@color/accentElisa"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_welcome"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/secondaryColor"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="6dp"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:id="@+id/goToProfile"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:id="@+id/goToProfileImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:src="@drawable/profile_pic"
+            android:padding="20dp"/>
+
+        <TextView
+            android:id="@+id/goToProfileText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:padding="30dp"
+            android:textColor="@color/accentElisa"
+            android:textSize="20sp"
+            android:text="@string/view_your_profile"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/goToData"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="180dp">
+
+        <ImageView
+            android:id="@+id/goToDataImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:padding="20dp"
+            android:src="@drawable/graph_data_2" />
+
+        <TextView
+            android:id="@+id/goToDataText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:padding="30dp"
+            android:text="@string/view_your_data"
+            android:textColor="@color/accentElisa"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/goToMap"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="360dp">
+
+        <ImageView
+            android:id="@+id/goToMapImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:padding="20dp"
+            android:src="@drawable/world" />
+
+        <TextView
+            android:id="@+id/goToMapText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:padding="30dp"
+            android:text="@string/view_your_gas_station"
+            android:textColor="@color/accentElisa"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+

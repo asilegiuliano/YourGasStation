@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_photo_camera_black_24dp"
+            android:title="@string/your_profile" />
+
+        <item
+            android:id="@+id/nav_data"
+            android:icon="@drawable/ic_build_black_24dp"
+            android:title="@string/your_data" />
+
+        <item
+            android:id="@+id/nav_gas_station"
+            android:icon="@drawable/ic_photo_library_black_24dp"
+            android:title="@string/your_gas_station" />
+
+
+    </group>
+</menu>

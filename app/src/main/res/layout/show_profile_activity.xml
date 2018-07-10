@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorAccent"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/profileImage"
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/profile_pic"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"/>
+
+            <TextView
+                android:id="@+id/nameText"
+                android:text="@string/nameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/emailText"
+                android:text="@string/emailText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/bioText"
+                android:text="@string/bioText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/telText"
+                android:text="@string/telText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+</LinearLayout>

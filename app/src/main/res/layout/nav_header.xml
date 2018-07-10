@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/accentElisa"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gas_station"
+        android:src="@drawable/ic_local_gas_station_white_48dp"
+        android:layout_marginTop="40dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/ygs_app"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/your_gas_station_app"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

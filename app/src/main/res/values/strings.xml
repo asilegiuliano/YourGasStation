@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ProfileManagement</string>
+    <string name="app_motto">Your Gas Station</string>
+    <string name="scatta_foto">Snap a photo</string>
+    <string name="import_pic">Import</string>
+    <string name="gallery">Gallery</string>
+    <string name="slideshow">Slideshow</string>
+    <string name="tools">Tools</string>
+    <string name="ygs_app">YGS</string>
+    <string name="your_gas_station_app">Your Gas Station</string>
+
+    <!-- ShowProfileActivity -->
+    <string name="nameText">Name</string>
+    <string name="bioText">Short Bio</string>
+    <string name="telText">Phone Number</string>
+    <string name="emailText">Email</string>
+
+    <!-- EditProfileActivity -->
+    <string name="saveData">Save data</string>
+
+    <!-- EditDataActivity -->
+    <string name="nameBenz">Gas Station</string>
+    <string name="price">Price</string>
+    <string name="title_activity_map">MapActivity</string>
+
+    <!-- activity_home Layout -->
+    <string name="view_your_profile">View your profile!</string>
+    <string name="view_your_data">View your data!</string>
+    <string name="view_your_gas_station">View your gas stations!</string>
+
+    <!-- DrawerLayout -->
+    <string name="your_profile">Your profile</string>
+    <string name="your_data">Your data</string>
+    <string name="your_gas_station">Your Gas Station</string>
+
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorAccent"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@+id/my_toolbar"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/profile_pic"
+            android:layout_gravity="start" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/profileImage"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/nameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nameText"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/emailText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nameText"
+                android:text="@string/emailText"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bioText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/emailText"
+                android:text="@string/bioText"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/telText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bioText"
+                android:text="@string/telText"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

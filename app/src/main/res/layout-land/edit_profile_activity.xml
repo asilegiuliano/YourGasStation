@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scatta_foto"/>
+
+    <EditText
+        android:id="@+id/editName"
+        android:text="@string/nameText"
+        android:inputType="text"
+        android:layout_below="@+id/buttonImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editBio"
+        android:text="@string/bioText"
+        android:inputType="text"
+        android:layout_below="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editTel"
+        android:text="@string/telText"
+        android:inputType="number"
+        android:layout_below="@+id/editBio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:text="@string/emailText"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/editTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/saveData"
+        android:layout_below="@+id/editEmail"
+        android:background="@color/accentElisa"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>
