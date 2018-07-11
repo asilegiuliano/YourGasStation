@@ -33,7 +33,11 @@
 
         </activity>
         <activity android:name=".activities.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
             <!-- qui ci va l'intent main -->
         </activity>
 
