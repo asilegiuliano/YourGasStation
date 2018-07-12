@@ -1,9 +1,11 @@
 package com.engim.svilupposw.profilemanagement.activities;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -34,5 +36,21 @@ public class HomeActivity extends AppCompatActivity {
         goToMapImage = findViewById(R.id.goToMapImage);
         goToMapText = findViewById(R.id.goToMapText);
 
+    }
+
+    public void btnProfile(View view) {
+        Intent profile = new Intent(getApplicationContext(), ShowProfileActivity.class);
+        startActivity(profile);
+    }
+
+
+    public void btnData(View view) {
+        Intent data = new Intent(getApplicationContext(), ShowDataActivity.class);
+        startActivity(data);
+    }
+
+    public void btnMap(View view) {
+        Intent map = new Intent(getApplicationContext(), MapActivity.class);
+        startActivity(map);
     }
 }

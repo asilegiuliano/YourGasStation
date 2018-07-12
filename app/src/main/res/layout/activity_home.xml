@@ -13,26 +13,27 @@
     <LinearLayout
         android:id="@+id/goToProfile"
         android:layout_width="match_parent"
-        android:layout_height="150dp">
+        android:layout_height="150dp"
+        android:onClick="btnProfile">
 
         <ImageView
             android:id="@+id/goToProfileImage"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="0.5"
-            android:src="@drawable/profile_pic"
-            android:padding="20dp"/>
+            android:padding="20dp"
+            android:src="@drawable/profile_pic" />
 
         <TextView
             android:id="@+id/goToProfileText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.5"
             android:layout_gravity="center"
+            android:layout_weight="0.5"
             android:padding="30dp"
+            android:text="@string/view_your_profile"
             android:textColor="@color/accentElisa"
-            android:textSize="20sp"
-            android:text="@string/view_your_profile"/>
+            android:textSize="20sp" />
 
     </LinearLayout>
 
@@ -40,7 +41,8 @@
         android:id="@+id/goToData"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_marginTop="180dp">
+        android:layout_marginTop="180dp"
+        android:onClick="btnData">
 
         <ImageView
             android:id="@+id/goToDataImage"
@@ -67,7 +69,8 @@
         android:id="@+id/goToMap"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_marginTop="360dp">
+        android:layout_marginTop="360dp"
+        android:onClick="btnMap">
 
         <ImageView
             android:id="@+id/goToMapImage"

@@ -8,6 +8,7 @@
     <string name="tools">Tools</string>
     <string name="ygs_app">YGS</string>
     <string name="your_gas_station_app">Your Gas Station</string>
+    <string name="google_maps_key">AIzaSyChPofIXjdiMxuruF2QniJzSq-Q4pC0-v4</string>
 
     <!-- ShowProfileActivity -->
     <string name="nameText">Name</string>
